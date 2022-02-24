@@ -1,0 +1,95 @@
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+.cv {
+    max-width: 900px;
+    margin: 0 auto;
+    border: coral;
+    background-color: bisque;
+}
+
+h2 {   
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+    font-size: 200%; /* Размер шрифта */
+    border-bottom: 2px solid; /* Параметры линии под текстом */
+    font-weight: normal; /* Убираем жирное начертание */
+    padding-bottom: 5px; /* Расстояние от текста до линии */
+}
+
+h1 {
+    margin-left: 0.25em;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}
+
+h4 {
+    text-decoration:underline;
+    text-align: center;
+}
+
+.contacts {
+    margin-left: 0.25em;
+}
+
+.col-main {
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    height: 900px;
+    background: bisque;
+    background-size: 100%;
+    float: left;
+}
+
+.col-aside {
+    text-align: center;
+    margin: 0 auto;
+    width: 70%;
+    height: 900px;
+    background:rgb(253, 245, 235);
+    float: right;
+}
+
+.a {
+    color:blue;
+}
+
+.contact {
+    margin-left: 0.25em;
+    display: flex;
+    text-align: left;
+
+}
+
+.contact_type {
+    margin-left: 0.25em;
+    min-width: 90px;
+}
+
+.about-me {
+    margin-top: 0.25em;
+    margin-left: 0.5em;
+    text-align: left;
+}
+
+.experience {
+    margin-left: 0.5em;
+}
+
+.skills {
+    margin-left: 0.5em;
+}
+
+.english {
+    margin-left: 0.5em;
+}
+
+.footer {
+    max-width: 900px;
+}
+
+ul.fut li  {
+    display: inline;
+}
