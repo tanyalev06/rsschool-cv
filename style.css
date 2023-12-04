@@ -53,19 +53,20 @@ h4 {
 }
 
 .a {
-    color:blue;
+    text-decoration: none;
+    color: peru;
 }
 
 .contact {
     margin-left: 0.25em;
+    padding-right: 0.25em;
     display: flex;
     text-align: left;
-
 }
 
 .contact_type {
     margin-left: 0.25em;
-    min-width: 90px;
+    min-width: 50px;
 }
 
 .about-me {
